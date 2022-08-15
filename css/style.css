@@ -138,7 +138,7 @@ body {
 }
 
 .descriptionContainer-images {
-  background-image: url(./img/fondo.png);
+  background-image: url(../img/fondo.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -487,6 +487,15 @@ body {
     font-weight: 700;
     line-height: 3.1875rem;
     color: var(--blue);
+  }
+
+  .navbar-links {
+    width: auto;
+    height: 1.5rem;
+  }
+
+  .navbar__links-list {
+    gap:0.8rem
   }
 
   .navbar__links__list__container-link {
