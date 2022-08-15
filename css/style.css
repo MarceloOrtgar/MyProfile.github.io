@@ -528,7 +528,8 @@ body {
   .descriptionContainer__images-image {
     width: 250px;
     height: 250px;
-    box-shadow: 0.2rem 0.2rem 2rem #9fb6f5, -0.2rem -0.2rem 2rem #9fb6f5;
+    box-shadow: 1rem 1rem 1.5rem rgba(83, 84, 85, 0.25),
+    -1rem -1rem 1.5rem rgba(83, 84, 85, 0.25);
   }
 
   /*SoftSkills*/
@@ -542,8 +543,6 @@ body {
     flex-direction: column;
     align-items: center;
   }
-
-  /*recommendation*/
 
   /* bootcamp */
 
