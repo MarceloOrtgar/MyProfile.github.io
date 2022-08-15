@@ -138,7 +138,7 @@ body {
 }
 
 .descriptionContainer-images {
-  background-image: url(/img/fondo.png);
+  background-image: url(./img/fondo.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -480,9 +480,36 @@ body {
 /*MOBILE + TABLET */
 
 @media (max-width: 1024px) {
+  /*Navbar*/
+
+  .navbar-letter {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 3.1875rem;
+    color: var(--blue);
+  }
+
+  .navbar__links__list__container-link {
+    font-size: 0.8rem;
+  }
+
+  /* Description */
+
+  .descriptionContainer {
+    gap: 1rem;
+  }
+
+  .descriptionContainer__texts-description {
+    font-size: 1.2rem;
+  }
+
+  .descriptionContainer__texts-previousWorks {
+    font-size: 1rem;
+  }
+
   /*Projects*/
 
-  .titleProjects{
+  .titleProjects {
     margin-top: 2rem;
   }
 
@@ -518,8 +545,17 @@ body {
 
   /*recommendation*/
 
+  /* bootcamp */
+
   .bootcamp {
+    width: 100%;
+    margin: auto;
+    margin-top: 1rem;
     margin-bottom: 1rem;
+  }
+
+  .bootcamp-paragraph {
+    font-size: 1rem;
   }
 
   /*Form Social Media */
